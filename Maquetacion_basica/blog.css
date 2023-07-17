@@ -3,6 +3,8 @@
     background-color: black;
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
+    color: white;
 }
 .padre{
     display: flex;
