@@ -1,17 +1,22 @@
 .hipervinculos{
+    padding: 0;
+    margin: 0;
     border: 12px solid black ;
     background-color: black;
     display: flex;
-    text-decoration: none;
-    color: white;
     justify-content: space-around;
-    width: 100%;
+    font-size:20px;
+}
+a{    
+    text-decoration:none;
+    color:rgb(255, 255, 255);
 }
 .Fotos{
-    flex-direction: row;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    width: 100%;
+    flex-direction: row;
+        flex-wrap: wrap;
+    justify-content:center;
+}
+.hijo{
+    width: 33.3%;
 }
