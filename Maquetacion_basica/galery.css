@@ -1,0 +1,13 @@
+.hipervinculos{
+    border: 12px solid black ;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.Fotos{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}

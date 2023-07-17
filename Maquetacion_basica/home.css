@@ -1,0 +1,19 @@
+.hipervinculos{
+    border: 12px solid black ;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.hijo{
+    margin: 100px;
+}
+.foto{
+    margin-right: 40px ;
+}
