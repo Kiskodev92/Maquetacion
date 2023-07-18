@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .hipervinculos{
     padding: 0;
     margin: 0;
@@ -10,10 +14,6 @@
 a{    
     text-decoration:none;
     color:rgb(255, 255, 255);
-}
-*{
-    margin: 0;
-    padding: 0;
 }
 .padre{
     display: flex;
