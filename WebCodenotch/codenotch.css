@@ -7,13 +7,15 @@
     flex-direction: row;
     justify-content: space-evenly;
     color: white;
-    background-color: black;
+    font-weight: bolder;
+    background-color: blue;
     height: 40px;
     align-items: center;
 }
 a{
     text-decoration:none;
-    color: rgb(0, 42, 252);
+    color: black;
+    font-weight: bolder;
 }
 .textcontacto{
     display: flex;
