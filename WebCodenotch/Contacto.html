@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="menu">
+      <img src="icon.jpg" height="40">
         Menu
         <a href="Contacto.html">Contacta</a>
         <a href="Curso.html">Curso</a>
@@ -16,21 +17,19 @@
     </div>
     <p class="textcontacto">Si quieres mas informacion sobre nuestro curso, rellena nuestro formulario y nos pondremos en contacto contigo lo antes posible.</p>
     <form action="formulario"> 
-        <ul>
-        <li>
+        <div class="cuestionario">
           <label for="name">Nombre:</label>
           <input type="text" id="name" name="user_name">
-        </li>
-        <li>
+          <label for="name">Fecha de nacimiento:</label>
+          <input type="text" id="name" name="user_age">
+          <label for="name">Provincia</label>
+          <input type="text">
           <label for="mail">Correo electrónico:</label>
           <input type="email">
-        </li>
-        <li>
           <label for="msg">Mensaje:</label>
           <textarea id="msg" name="user_message"></textarea>
-        </li>
-        <button>Enviar</button>
-       </ul>
+          <button>Enviar</button>
+       </div>
     </form>
     <footer>Redes</footer>
 </body>
