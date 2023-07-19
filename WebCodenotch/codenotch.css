@@ -24,7 +24,7 @@ a{
 .textcontacto{
     display: flex;
     font-size: large;
-    border: 2px solid rgb(0, 0, 94);
+    border-bottom: 2px solid rgb(255, 255, 255);
     flex-direction: row;
     background-color: black;
     color: white;
@@ -54,7 +54,7 @@ button{
     color: white;
 }
 .team0{
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid white;
     text-decoration:none;
     background-color: black;
     font-size: x-large;
@@ -81,7 +81,7 @@ button{
 .team1{
     flex-direction: column;
     display: flex;
-    background-color: black ;
+    background-color: rgb(0, 17, 255) ;
     justify-content: center;
     align-items: center;
     padding: 15%;
@@ -95,16 +95,16 @@ button{
     padding: 15%;
 }
 .asideteam{
-    border: 3px solid rgb(255, 255, 255);
-    background-color: blue;
-    color: white;
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    color: black;
     font-size: large;
     padding: 15px;
     margin: 15px;
 }
 .titulocurso{    
     display: flex;
-    border: 2px solid rgb(0, 0, 94);
+    border-bottom: 2px solid rgb(255, 255, 255);
     flex-direction: row;
     background-color: black;
     color: white;
@@ -142,11 +142,14 @@ button{
 }
 footer{
         border-top: 2px solid rgb(255, 255, 255);
-        font-size: large;
+        font-size: x-large;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: end;
         color: white;
-        background-color: rgb(0, 8, 255);
+        background-color: rgb(0, 0, 0);
         margin-top: auto;
+}
+.fotofooter{
+    margin-top: 3px;
 }
