@@ -14,7 +14,6 @@
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 a{
     text-decoration:none;
     color: black;
@@ -35,10 +34,11 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 .cuestionario{
-        font-size: large;
+    height: 86vh;
+    font-size: large;
     border: 2px solid black;
     display: flex;
-    background-color: blue;
+    background-image: url(fondo2.png);
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -81,15 +81,7 @@ button{
 .team1{
     flex-direction: column;
     display: flex;
-    background-color: rgb(0, 17, 255) ;
-    justify-content: center;
-    align-items: center;
-    padding: 15%;
-}
-.team2{
-    border: 2px solid white;
-    flex-direction: column;
-    display: flex;
+    background-color: rgb(55, 0, 255);
     justify-content: center;
     align-items: center;
     padding: 15%;
@@ -118,7 +110,7 @@ button{
 .cursos{
         border: 2px solid black;
         flex-direction: column;
-        background-color: blue;
+        background-image: url(fondo2.png);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -139,6 +131,31 @@ button{
     color: white;
     margin: 5px;
     padding: 5px;
+}
+.lantitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-color: black;
+    border-bottom: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.landinpadre{
+    height: 87vh;
+    background-image: url(fondo2.png);
+    color: white;
+    font-size: large;
+    display: flex;
+}
+.landinhijo{
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 footer{
         border-top: 2px solid rgb(255, 255, 255);
