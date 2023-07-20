@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+/*Esta es el css de 
+del HEADER*/
 .menu{
     display: flex;
     flex-direction: row;
@@ -14,6 +17,7 @@
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* EMPIEZA EL CSS DE CONTACTO*/
 a{
     text-decoration:none;
     color: black;
@@ -34,25 +38,44 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 .cuestionario{
-    height: 86vh;
-    font-size: large;
-    border: 2px solid black;
-    display: flex;
-    background-image: url(fondo2.png);
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    padding-bottom: 50px;
 }
-button{
-    padding: 2px;
-    margin: 3px;
-    height: 50;
-    width: 100px;
-    background-color: black;
-    color: white;
+.cuestionario h4{
+    font-size: 22px;
+    margin-bottom: 20px;
 }
+.control{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+    border: 2px solid rgb(38, 0, 255);
+}
+.cuestionario p{
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+.button{
+    padding: 14px;
+    margin: 14px;
+    width: 90%;
+    font-size: 16px;
+    background-color: rgb(30, 0, 255);
+    color: white; 
+}
+/*TERMINA EL CSS DE CONTACTO*/
+/*EMPIEZA EL CSS
+DE TEAM*/
 .team0{
     border-bottom: 2px solid white;
     text-decoration:none;
@@ -107,6 +130,9 @@ button{
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*TERMINA EL CSS DE TEAM*/
+/*EMPIEZA EL CSS
+DE CURSO*/
 .cursos{
         border: 2px solid black;
         flex-direction: column;
@@ -132,6 +158,9 @@ button{
     margin: 5px;
     padding: 5px;
 }
+/*TERMINA EL CSS DE CURSO*/
+/*EMPIEZA EL CSS
+DE LANDING*/
 .lantitulo{
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
