@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
 }
 /*Esta es el css de 
 del HEADER*/
@@ -15,16 +16,14 @@ del HEADER*/
     background-color: blue;
     height: 40px;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 /* EMPIEZA EL CSS DE CONTACTO*/
 a{
     text-decoration:none;
     color: black;
     font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
 }
-.textcontacto{
+#textcontacto{
     display: flex;
     font-size: large;
     border-bottom: 2px solid rgb(255, 255, 255);
@@ -35,14 +34,23 @@ a{
     justify-content: center;
     align-items: center;
     font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
+}
+#maincontact{
+    background-image: url(fondo2.png);
+}
+#bordecuestionario{
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 44.4%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 .cuestionario{
     width: 400px;
     background: #24303c;
-    padding: 30px;
     justify-content: center;
-    margin-top: 100px;
     border-radius: 4px;
     font-family: 'calibri';
     padding-bottom: 50px;
@@ -81,33 +89,41 @@ DE TEAM*/
     text-decoration:none;
     background-color: black;
     font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
 }
+.team1{
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(0, 191, 255);
+    justify-content: center;
+    align-items: center;
+}
 .cargo{
     border: 3px solid rgb(255, 255, 255);
     border-radius: 40px;
+    flex-direction: column;
     background-color: blue;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-size: xx-large;
     margin: 15px;
     padding-left: 30px;
     padding-right: 30px;
 }
-.team1{
-    flex-direction: column;
+.pipol{
     display: flex;
-    background-color: rgb(55, 0, 255);
-    justify-content: center;
     align-items: center;
-    padding: 15%;
+    margin-bottom: 30px;
+}
+.pipol img{
+    height: 250px;
+    width: 200px;
 }
 .asideteam{
     border: 3px solid black;
@@ -117,6 +133,9 @@ DE TEAM*/
     padding: 15px;
     margin: 15px;
 }
+/*TERMINA EL CSS DE TEAM*/
+/*EMPIEZA EL CSS
+DE CURSO*/
 .titulocurso{    
     display: flex;
     border-bottom: 2px solid rgb(255, 255, 255);
@@ -128,11 +147,7 @@ DE TEAM*/
     justify-content: center;
     align-items: center;
     font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
 }
-/*TERMINA EL CSS DE TEAM*/
-/*EMPIEZA EL CSS
-DE CURSO*/
 .cursos{
         border: 2px solid black;
         flex-direction: column;
@@ -144,17 +159,17 @@ DE CURSO*/
 }
 .categ{
     border: 3px solid black;
-    border-radius: 40px;
+    border-radius: 10px;
     margin: 10px;
     padding: 5px;
-    background-color: black;
+    background-color: rgb(0, 68, 255);
     color: greenyellow;
 }
 .defcurs{
     border: 3px solid black;
-    background-color: black;
-    border-radius: 20px;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
     margin: 5px;
     padding: 5px;
 }
@@ -162,7 +177,6 @@ DE CURSO*/
 /*EMPIEZA EL CSS
 DE LANDING*/
 .lantitulo{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     background-color: black;
     border-bottom: 2px solid white;
@@ -186,15 +200,16 @@ DE LANDING*/
     justify-content: center;
     align-items: center;
 }
+/*AQUI SE HACE EL FOOTER*/
 footer{
         border-top: 2px solid rgb(255, 255, 255);
         font-size: x-large;
+        width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: end;
         color: white;
         background-color: rgb(0, 0, 0);
-        margin-top: auto;
 }
 .fotofooter{
     margin-top: 3px;
