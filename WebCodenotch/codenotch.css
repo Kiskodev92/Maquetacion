@@ -37,19 +37,17 @@ a{
 }
 #maincontact{
     background-image: url(fondo2.png);
+    display:flex;
+    flex-direction: row;
+    justify-content: center ;
+    height: 90vh;
+    padding-top: 200px;
 }
-#bordecuestionario{
-    border: 10px solid rgb(255, 255, 255);
-    border-radius: 5px;
-    margin-left: 35%;
-    margin-right: 44.4%;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-}
+
 .cuestionario{
+    height: 400px;
     width: 400px;
-    background: #24303c;
+    background: #d3e7f1;
     justify-content: center;
     border-radius: 4px;
     font-family: 'calibri';
@@ -58,15 +56,19 @@ a{
 .cuestionario h4{
     font-size: 22px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 .control{
-    width: 100%;
+    width: 85%;
     padding: 10px;
+    display: flex;
+    align-items: center;
     border-radius: 4px;
-    margin-bottom: 16px;
-    font-family: 'calibri';
+    margin-bottom: 10px;
+    margin-left: 25px;
     font-size: 18px;
-    border: 2px solid rgb(38, 0, 255);
+    border: 2px solid rgb(0, 0, 0);
 }
 .cuestionario p{
     height: 40px;
@@ -98,16 +100,16 @@ DE TEAM*/
 .team1{
     flex-direction: column;
     display: flex;
-    background-color: rgb(0, 191, 255);
+    background-color: rgb(2, 22, 29);
     justify-content: center;
     align-items: center;
 }
 .cargo{
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(4, 0, 255);
     border-radius: 40px;
     flex-direction: column;
-    background-color: blue;
-    color: white;
+    background-color: rgb(176, 224, 240);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,8 +129,9 @@ DE TEAM*/
 }
 .asideteam{
     border: 3px solid black;
-    background-color: rgb(255, 255, 255);
-    color: black;
+    border-radius: 6px;
+    background-color: rgb(237, 227, 227);
+    color: rgb(0, 0, 0);
     font-size: large;
     padding: 15px;
     margin: 15px;
@@ -158,16 +161,16 @@ DE CURSO*/
         font-size: large;
 }
 .categ{
-    border: 3px solid black;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
     margin: 10px;
     padding: 5px;
-    background-color: rgb(0, 68, 255);
-    color: greenyellow;
+    background-color: rgb(67, 115, 246);
+    color: rgb(0, 0, 0);
 }
 .defcurs{
-    border: 3px solid black;
-    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(13, 0, 255);
+    background-color: rgb(242, 234, 234);
     border-radius: 15px;
     color: rgb(0, 0, 0);
     margin: 5px;
@@ -190,10 +193,15 @@ DE LANDING*/
     color: white;
     font-size: large;
     display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .landinhijo{
-    margin-left: 300px;
-    font-family: Arial, Helvetica, sans-serif;
+    border: 4px solid white;
+    border-radius: 5px;
+    background-color: rgb(27, 26, 26);
     font-size: xx-large;
     display: flex;
     flex-direction: column;
