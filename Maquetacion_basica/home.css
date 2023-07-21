@@ -15,6 +15,11 @@ a{
     text-decoration:none;
     color:rgb(255, 255, 255);
 }
+.title{
+    margin-bottom: 70px;
+    justify-content: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .padre{
     display: flex;
     flex-direction: row;
@@ -22,8 +27,14 @@ a{
     align-items: center;
 }
 .hijo{
+    display: flex;
+    flex-direction: column;
     margin: 100px;
 }
+.text{
+    padding-bottom: 30px;
+}
 .foto{
-    margin-right: 40px ;
+    margin-right: 150px ;
+    margin-top: 70px;
 }
