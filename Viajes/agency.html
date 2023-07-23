@@ -7,7 +7,65 @@
     <link rel="stylesheet" href="agency.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <div>
+        Travel Codenotch
+        </div>
+    </header>
+    <main>
+        <div class="slogan">¡Los mejores destinos a precios bajos!</div>
+        <div class="boxcontent">
+            <div class="poster">
+                <div class="ofert1">
+                    <p>GALICIA</p>
+                    <p>Asientos al 75% de descuento.</p>
+                </div>
+                <div class="ofert2">
+                    <p>MALLORCA</p>
+                    <p>Vuelos y hotel con 3 noches desde 150€.</p>
+                </div>
+                <div class="ofert3">
+                    <p>CANARIAS</p>
+                    <p>Hotel + excursiones incluidas.</p>
+                </div>
+            </div>
+            <form action="">
+                <div class="option">
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre" autocomplete="on" required>
+                    <label for="name">Origen:</label>
+                    <input type="text" id="origin" name="origin" placeholder="Lugar de salida" autocomplete="on" required>
+
+                    <label for="name">Destino:</label>
+                    <input type="text" id="destiny" name="destiny" placeholder="Lugar de destino" autocomplete="on" required>
+
+                    <label for="name">Pasajeros</label>
+                    <input type="number" id="n_people" name="n_people" placeholder="Numero de pasajeros" autocomplete="on" required>
+
+                    <label for="name">Hora de salida:</label>
+                    <input type="number" id="start" name="start" placeholder="Salida del vuelo" autocomplete="on" required>
+
+                    <label for="name">Hora de llegada:</label>
+                    <input type="number" id="end" name="end" placeholder="Llegada del vuelo" autocomplete="on" required>
+                </div>
+                <div class="botones">
+                    <button type ="button" onclick="getName()">Solicitar informacion</button>
+                    <p id="imprimir"></p>
+
+                    <button type="button" onclick="filtrar()">Filtrar</button>
+                    <p id="filtrar"></p>
+                </div>
+            </form>
+        </div>
+        <div class="buy">¡APROVECHA Y RESERVA YA!</div>
+
+    </main>
+    <footer> 
+        <div>
+            <p>+info: 985-964-632</p>
+            <p>email:travelcodenotch@bootcamp.com</p>
+        </div>
+    </footer>
+    <script src="agency.js"></script>
 </body>
-</html>
+</html> 
