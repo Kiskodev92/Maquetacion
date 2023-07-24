@@ -135,6 +135,9 @@ button{
     justify-content: center;
     align-items: center;
 }
+#print{
+    font-weight: bolder;
+}
 .buy{
     border: 5px inset yellow;
     background-color: rgb(198, 14, 14);
