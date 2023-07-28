@@ -1,3 +1,154 @@
+/*A los 875 es lo termina el tamaño grande*/
+/*A los 450 es el maximo tamaño medio*/
+/*El minimo de tamaño pequeño es 449*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.red{
+    border: 2px solid red;
+}
+.green{
+    border: 2px solid green;
+}
+.blue{
+    border: 2px solid blue;
+}
+body{
+    margin-top: 80px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+main article{
+        display: flex;
+}
+/*Este es el div de la foto del movil*/
+#setmain{
+    margin: 10px;
+}
+/*Este es el div del login*/
+#setmain2{
+    margin: 10px;
+}
+.logezone{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+}
+/*Es el menu donde esta el login con el borde gris*/
+.menu{
+    border: 1px solid rgb(124, 124, 124, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*La imagen del logo de instagram*/
+.menu img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+/*Los divs que hay dentro del form*/
+form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*El cuadro del login que abarca desde el usuario hasta el olvidar contraseña*/
+.forminn{
+    margin:40px;
+}
+input{
+    margin: 2px;
+    background-color: rgb(247, 246, 246);
+    border: 1px solid grey;
+    border-radius: 3px;
+    height: 35px;
+    width: 300px;
+}
+/*Boton de entrar a insta*/   
+.open{
+    margin: 20px;
+    background-color: rgb(37, 156, 241);
+    border: none;
+    font-weight: bolder;
+    border-radius: 8px;
+    height: 35px;
+    width: 300px;
+    color: white;
+}
+/*Linea divisoria*/
+.line{
+    color: gray;
+    margin-bottom: 30px;
+}
+/*button de fb con inicio sesion*/
+.fb{
+    width: 250px;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bolder;
+    color: rgb(33, 33, 162);
+}
+/*a de olvidar contraseña*/
+.forpass{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: small;
+    color: rgb(33, 33, 162)
+}
+/*Ultimo recuadro de registro con las fotos de android*/
+.bajologin div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Dandapp {
+    border: 1px solid rgb(124, 124, 124, 0.5);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*La parte del footer*/
+footer{
+    margin-top:50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 10px;
+    color:rgb(124, 124, 124);
+}
+
+
+/*Aqui vamos a poner las @media*/
+@media screen and (max-width:874px){
+    #setmain{
+    display: none;
+    }
+}
 
 @media screen and (max-width:451px){
     .menu{
