@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+main{
+    margin:10px;
+    width: 50%;
+    height: 150rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 2fr 2fr 1fr 2fr;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.a{
+    background-color: greenyellow;
+}
+.b{
+    background-color: black;
+    color: white;
+}
+.c{
+    background-color: greenyellow;
+}
+.d{
+    background-color: black;
+    color: white;
+}
+.e{
+    background-color: greenyellow;
+}
+.f{
+    background-color: black;
+    color: white;
+}

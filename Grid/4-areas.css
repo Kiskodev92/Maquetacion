@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.container{
+    border: 2px solid black;
+    margin: 50px;
+    min-height: 577px;
+    width: 70%;
+    display:grid;
+    grid-template-areas:"head head img"
+                        "main cont cont"
+                        "main cont cont"
+                        "main cont cont"
+                        "foot foot foot";
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.main{
+    background: rgb(255, 89, 0);
+    grid-area: main;
+    display: grid;
+    grid-template-areas:"asi1"
+                        "vaci"
+                        "asi2";
+}
+.content{
+    background-color: rgb(255, 68, 0);
+    grid-area: cont;
+    display: grid;
+    grid-template-areas:"cont1"
+                        "cont2";
+}
+.footer{
+    background: rgb(96, 9, 9);
+    grid-area: foot;
+}
+.h{
+    background: rgb(183, 27, 7);
+    grid-area: head;
+}
+.i{
+    background: rgb(96, 9, 9);
+    grid-area: img;
+}
+.a1{
+    background: rgb(255, 255, 255);
+    color: rgb(255, 89, 0);
+    grid-area: asi1;
+}
+.a2{
+    background: rgb(255, 255, 255);
+    color: rgb(255, 89, 0);
+    grid-area: asi2;
+}
+.c{
+    border: 2px solid white;
+    margin: 5px;
+    grid-area: cont1;
+
+}
+.t{
+    border: 2px solid white;
+    grid-area: cont2;
+    margin: 5px;
+}
+

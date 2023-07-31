@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+main{
+    margin: 50px;
+    min-height: 977px;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 500px 250px 500px;
+    grid-template-rows: 300px 300px 300px;
+    ;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.a{
+    background-color: greenyellow;
+}
+.b{
+    background-color: rgb(255, 200, 47);
+}
+.c{
+    background-color: rgb(255, 102, 47);
+}
+.d{
+    background-color: red;
+}
+.e{
+    background-color: blue;
+}
+.f{
+    background-color: yellow;
+}
