@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg " style="background-color: black !important;">
+	
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="nash!.png" style="height: 30px;" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: white;">HOME</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;">ULTIMAS LLEGADAS</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="color: white;">
+            CATEGORIAS</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+</ul>
+<!-- Button trigger modal -->
+        <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#container-productos">
+            CARRITO
+        </button>
+        <div class="modal fade" id="container-productos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">CARRITO</h1>
+                        <div class="contador">
+                        <span class="contador-productos"></span>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <p id="vistaProducto; "></p>
+                        <p id="vistaProducto; "></p>
+                        <p id="vistaProducto; "></p>
+                        <span id="precioTotal"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</nav>
+<div id="container-items" class="d-flex flex-row d-flex justify-content-around" style="padding-top: 5%;">
+    <div  class="card" style="width: 15rem; height: 32rem ;" >
+        <img   src="https://cdnimg.emmiol.com/E/202206/img_original-CCF0356BO-0600864310.jpg" class="card-img-top" style="width: 238PX;height: 60%;">
+        <div class="card-body">
+        <h5 id="vestidoverder" class="card-title">Vestido Verde</h5>
+        <p class="card-text">With supporting text below as a natural</p>
+        <p id="prec" class="price">20€</p>
+        <button type="submit" id="botoncarrito"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            añadir al Carrito
+        </button>    
+        </div>
+    </div>
+    <div class="card" style="width: 15rem;height: 32rem ;" >
+        <img src="https://images.asos-media.com/products/falda-vaquera-midi-con-lavado-medio-y-abertura-en-el-bajo-de-asos-design/204014722-1-midblue?$n_640w$&wid=513&fit=constrain" class="card-img-top" style="width: 238PX;height: 70%;">
+        <div class="card-body">
+        <h5 id="vestidoverder" class="card-title">Falda Entretiempo</h5>
+        <p class="card-text">With supporting text below as a natur content.</p>
+        <p id="prec" class="price">30€</p>
+        <button type="button" id="botoncarrito" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            añadir al Carrito
+        </button>    
+    </div>
+    </div>
+    <div class=" card" style="width: 15rem;height: 32rem ; " >
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ-a6YjJrEJpkTc4C8XugbMrAcaYNNCmIbsfq1snuCJF5BoZ6Z0mn-QllNJPIKT05YSIGtv76cKu_ACMiNKBKmjO29ulAsYIPV8CPX_0idFgt4bZSDTkFksrw&usqp=CAE" class="card-img-top"  style="width: 238PX;height: 55%;">
+        <div class="card-body">
+        <h5 id="vestidoverder" class="card-title">Camiseta Gris</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <P class="price">15€</P>
+        <button type="button" id="botoncarrito"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            añadir al Carrito
+        </button>    
+    </div>
+</div>
+<div class="d-flex flex-row ">
+    <div class="card" style="width: 15rem;height: 32rem ; " >
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRAaI7UDD3TM_cHzfeHfgKBenOt5wvD4bGd7eOOL7OJYXWHEbNdIajL9CBiR5vNSrax1yH-g9Oub1AHItCGI_KWLyZjto3Rcgs87KFLNTO00XP1EUJ7SQO2lQ&usqp=CAE" class="card-img-top" >
+        <div class="card-body">
+        <h5 id="vestidoverder" class="card-title">Sudadera ellese</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <p class="price">30€</p>
+        <button type="button" id="botoncarrito"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            añadir al Carrito
+        </button>    
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="Jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
