@@ -59,7 +59,7 @@ let arrmovie = [
             
             container.innerHTML += 
             `
-            <div class="card" style="width: 18rem;"></div>
+            <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="${arrmovie[i].photos}" alt="Card image cap">
             <div class="card-body" col>
                 <h5 class="card-title">${arrmovie[i].title}</h5>
@@ -67,6 +67,7 @@ let arrmovie = [
                 <p class="card-text">Pais: ${arrmovie[i].nacionality}</p>
                 <p class="card-text">Genero: ${arrmovie[i].genre}</p>
                 <p class="card-text">Reparto: ${arrmovie[i].actors}</p>
+            </div>
             </div>
             `
         }
